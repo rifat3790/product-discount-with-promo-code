@@ -13,7 +13,7 @@ document.getElementById('discount-btn').addEventListener('click', function(){
     // End
     // Discount calculation
     const discount = displayAmount * .30;
-    const displayPrice = displayAmount - discount;
+    const discountPrice = displayAmount - discount;
     // End
 
     // Get display discount price 
@@ -21,6 +21,9 @@ document.getElementById('discount-btn').addEventListener('click', function(){
 
 
     if(input === 'disc30'){
-        discountPriceElement.innerText = ;
+        discountPriceElement.innerText = `Discounted price: $${discountPrice}`;
+    }
+    else{
+        discountPriceElement.innerText = `Price: $${displayAmount}`
     }
 })
