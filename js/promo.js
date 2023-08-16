@@ -20,7 +20,7 @@ document.getElementById('discount-btn').addEventListener('click', function(){
     const discountPriceElement = document.getElementById('discount-price');
 
 
-    if(input === 'disc30'){
+    if(input === 'DISC30'){
         discountPriceElement.innerText = `Discounted price: $${discountPrice}`;
     }
     else{
