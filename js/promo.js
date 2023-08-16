@@ -26,4 +26,6 @@ document.getElementById('discount-btn').addEventListener('click', function(){
     else{
         discountPriceElement.innerText = `Price: $${displayAmount}`
     }
+
+    inputField.value = '';
 })
